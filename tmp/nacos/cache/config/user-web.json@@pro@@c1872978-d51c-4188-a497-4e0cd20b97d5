@@ -1,0 +1,23 @@
+{
+  "user_srv": {
+    "host": "localhost",
+    "port": 50051,
+    "name": "user-srv"
+  },
+  "jwt": {
+    "key": "mksdsadjsajdasjd"
+  },
+  "sms": {
+    "key": "LTAI5tDqXNYpkC5uGrQwznXu",
+    "secrect": "muegZ80p0ewcdkrFDzWLaM0xBxUxeB",
+    "expire": 300
+  },
+  "redis": {
+    "host": "192.168.181.129",
+    "port": 6379
+  },
+  "consul": {
+    "host": "192.168.181.130",
+    "port": 8500
+  }
+}
