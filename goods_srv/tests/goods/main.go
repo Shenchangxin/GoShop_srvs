@@ -27,7 +27,7 @@ func TestGetGoodsList() {
 
 func TestBatchGetGoods() {
 	rsp, err := brandClient.BatchGetGoods(context.Background(), &proto.BatchGoodsIdInfo{
-		Id: []int32{421, 422, 423},
+		Id: []int32{1, 2, 3},
 	})
 	if err != nil {
 		panic(err)
@@ -40,7 +40,7 @@ func TestBatchGetGoods() {
 
 func TestGetGoodsDetail() {
 	rsp, err := brandClient.GetGoodsDetail(context.Background(), &proto.GoodInfoRequest{
-		Id: 421,
+		Id: 1,
 	})
 	if err != nil {
 		panic(err)
@@ -61,9 +61,9 @@ func Init() {
 func main() {
 	Init()
 	//TestCreateUser()
-	TestGetGoodsList()
+	//TestGetGoodsList()
 	//TestBatchGetGoods()
-	//TestGetGoodsDetail()
+	TestGetGoodsDetail()
 
 	conn.Close()
 }
