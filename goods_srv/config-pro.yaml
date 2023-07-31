@@ -3,7 +3,7 @@ port: 8848
 namespace: 'd0850b97-9af8-4508-b733-801d392b35ba'
 user: 'nacos'
 password: 'nacos'
-dataid: 'goods-srv.json'
+dataid: 'inventory-srv.json'
 group: 'pro'
 
 #name: 'user-srv'

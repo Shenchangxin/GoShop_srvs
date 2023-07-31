@@ -1,0 +1,11 @@
+2023-07-31T10:04:38.263+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"pro","tenant":"d0850b97-9af8-4508-b733-801d392b35ba"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2023-07-31T10:04:38.272+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"pro","tenant":"d0850b97-9af8-4508-b733-801d392b35ba"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2023-07-31T10:04:38.276+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"inventory-srv.json","group":"pro","tenant":"d0850b97-9af8-4508-b733-801d392b35ba"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2023-07-31T10:04:38.276+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
